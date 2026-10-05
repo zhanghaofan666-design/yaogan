@@ -1,0 +1,16 @@
+name: rs-gdal
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - gdal
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - rasterio
+  - geopandas
+  - shapely
+  - pyproj

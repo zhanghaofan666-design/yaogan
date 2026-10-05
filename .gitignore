@@ -1,0 +1,7 @@
+.miniconda/
+.conda-env/
+Miniconda3-latest-Windows-x86_64.exe
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.cache/

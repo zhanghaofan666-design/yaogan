@@ -1,0 +1,26 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}\\.conda-env\\python.exe",
+  "python.condaPath": "${workspaceFolder}\\.miniconda\\Scripts\\conda.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}"
+  ],
+  "terminal.integrated.env.windows": {
+    "GDAL_DATA": "${workspaceFolder}\\.conda-env\\Library\\share\\gdal",
+    "PROJ_LIB": "${workspaceFolder}\\.conda-env\\Library\\share\\proj",
+    "MPLCONFIGDIR": "${workspaceFolder}\\.cache\\matplotlib"
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell (Conda)": {
+      "source": "PowerShell",
+      "args": [
+        "-NoExit",
+        "-ExecutionPolicy",
+        "Bypass"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell (Conda)",
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda"
+}
